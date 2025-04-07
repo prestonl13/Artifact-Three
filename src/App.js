@@ -20,7 +20,7 @@ function App() {
 
     <div>
       <Banner title="Keyboards" />
-      <SearchBar/>
+      <SearchBar class = "center" />
       <Gallery data = {data.keyboards} />
     </div>
   );
